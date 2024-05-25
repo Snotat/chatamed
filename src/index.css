@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Yanone+Kaffeesatz:wght@200..700&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --tbi_text: hsl(235, 100%, 8%);
+  --wandb: black;
+  color: rgb(24, 24, 24);
+  --tb_bg: rgb(168, 172, 255);
+  background: #9dbbff;
+  background: radial-gradient(
+    circle,
+    rgb(228, 236, 255) 0%,
+    rgb(178, 182, 255) 35%,
+    rgb(99, 99, 255) 100%
+  );
+  width: 100%;
+  height: 100vh;
+  --clay_bg: #6e89ff;
+  --clay_btn: green;
+  --hs_img-background: #7991fe;
+  --hs_img-box-shadow: inset 7px 7px 7px #070c2588,
+    inset -7px -7px 7px rgb(158, 172, 255);
+  --list_background-color: rgba(199, 219, 255, 1);
+  --list_box-shadow: inset 13px 11px 13px 0px rgba(239, 243, 255, 1),
+    inset -10px -13px 12px 0px rgba(169, 184, 222, 1),
+    13px 13px 16px 0px rgb(61, 71, 104);
+
+  .pathway-gothic one-regular {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+body.dark {
+  --tb_bg: rgb(7, 0, 39);
+  color: rgb(210, 210, 210);
+  --tbi_text: #b5c0ff;
+
+  background: rgb(1, 0, 18);
+  background: radial-gradient(
+    circle,
+    rgb(1, 0, 7) 0%,
+    rgb(6, 0, 35) 25%,
+    #090038 50%,
+    rgb(12, 0, 82) 75%,
+    rgb(15, 0, 101) 100%
+  );
+  --clay_bg: #040047;
+  width: 100%;
+  height: 100vh;
+
+  --clay_btn: green;
+  --wandb: white;
+  --hs_img-background: #000b4b;
+  --hs_img-box-shadow: inset 7px 7px 7px #00082f, inset -7px -7px 7px #000f5c;
+
+  --list_background-color: hsl(235, 100%, 8%);
+  --list_box-shadow: inset 13px 11px 13px 0px rgb(10, 0, 147),
+    inset -10px -13px 12px 0px rgb(1, 0, 53),
+    13px 13px 16px 0px rgba(0, 0, 0, 0.748);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+main {
+  width: 100%;
+  height: fit-content;
+}

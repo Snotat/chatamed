@@ -1,0 +1,165 @@
+.sign {
+  width: 100%;
+  height: fit-content;
+  min-height: fit-content;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.sign a {
+  max-width: 550px;
+  width: 90%;
+}
+.sign button {
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+  display: flex;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgb(0, 128, 92);
+  border-radius: 50px;
+}
+.sign span {
+  margin-left: 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signup {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding-bottom: 5px;
+}
+.signupup {
+  width: 100%;
+  height: 100%;
+}
+.signupup_head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 650;
+  color: var(--tbi_text);
+}
+.signup form {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.signup form section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+.signup label {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110px;
+  text-align: start;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  color: var(--tbi_text);
+}
+.signup input {
+  height: 30px;
+  border-radius: 50px;
+  background: #00000045;
+  color: var(--tbi_text);
+  font-size: 18px;
+  font-weight: 400;
+  flex: 1;
+  font-size: 14px;
+  border: 1px solid rgba(61, 61, 61, 0.259);
+  padding: 0 10px;
+}
+.signup form input {
+}
+.clay {
+  width: 93%;
+  max-width: 600px;
+  height: fit-content;
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  background: var(--clay_bg);
+  box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.705),
+    inset -11px -11px 16px 0px rgba(0, 0, 0, 0.596),
+    inset 0px 11px 28px 0px rgba(132, 126, 255, 0.515);
+  padding: 20px;
+}
+
+.clay_button {
+  width: 100%;
+  height: fit-content;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  background: rgb(59, 0, 142);
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.705),
+    inset -11px -11px 16px 0px rgba(0, 0, 0, 0.596),
+    inset 0px 11px 28px 0px rgba(188, 189, 253, 0.515);
+  padding: 10px;
+  border: 1px solid rgba(20, 0, 99, 0.455);
+}
+.clay_button:hover {
+  box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.705),
+    inset -11px -11px 16px 0px rgba(0, 0, 0, 0.796),
+    inset 0px 11px 28px 0px rgba(134, 154, 255, 0.715);
+  transform: scale(1.01);
+}
+.signgenin {
+  width: 100%;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.signgenin button {
+  width: fit-content;
+  background-color: var(--tbi_text);
+  color: var(--tb_bg);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+.signgenin a {
+  width: fit-content;
+}
+.signupdown {
+  width: 100%;
+  margin-top: 100px;
+}

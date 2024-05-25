@@ -1,0 +1,53 @@
+.topbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+
+  background-color: var(--tb_bg);
+  height: 60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.278),
+    0 6px 20px 0 rgba(0, 0, 0, 0.335);
+  text-align: center;
+  border: 1px #000000b5 solid;
+}
+
+.topbar img {
+  width: 80px;
+  height: 80px;
+}
+.tb_left {
+  font-size: 22px;
+  font-weight: 650;
+  margin-left: 15px;
+}
+
+.tb_right {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.tb_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tb_icon_text {
+  background-color: var(--tbi_text);
+  color: var(--tb_bg);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 5px 15px;
+  border-radius: 30px;
+}
+
+.tb_icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px;
+  color: var(--tbi_text);
+}

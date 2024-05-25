@@ -1,0 +1,91 @@
+.profile {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.profile_icon {
+  width: 150px;
+  height: 150px;
+}
+.profiler {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+  padding-bottom: 40px;
+}
+.profile_head {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  color: var(--tbi_text);
+  font-weight: 800;
+  font-size: 22px;
+}
+.profile section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  height: 60px;
+  border-bottom: 1px double rgba(106, 0, 255, 0.544);
+}
+.profile section div:nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110px;
+  text-align: start;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  color: var(--tbi_text);
+}
+.profile .clay {
+  width: 93%;
+  max-width: 600px;
+  height: fit-content;
+  backdrop-filter: blur(10px);
+  border-radius: 25px;
+  background: var(--clay_bg);
+  box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.705),
+    inset -11px -11px 16px 0px rgba(0, 0, 0, 0.596),
+    inset 0px 11px 28px 0px rgba(132, 126, 255, 0.515);
+  padding: 20px;
+  padding-bottom: 30px;
+}
+
+.clay_button {
+  width: 100%;
+  height: fit-content;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  background: rgb(59, 0, 142);
+  font-size: 20px;
+  font-weight: 700;
+  box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.705),
+    inset -11px -11px 16px 0px rgba(0, 0, 0, 0.596),
+    inset 0px 11px 28px 0px rgba(188, 189, 253, 0.515);
+  padding: 10px;
+  border: 1px solid rgba(20, 0, 99, 0.455);
+}
+.clay_button:hover {
+  box-shadow: 35px 35px 68px 0px rgba(0, 0, 0, 0.705),
+    inset -11px -11px 16px 0px rgba(0, 0, 0, 0.796),
+    inset 0px 11px 28px 0px rgba(134, 154, 255, 0.715);
+  transform: scale(1.01);
+}
+.profile_head_right {
+  color: var(--wandb);
+  font-size: 14px;
+  padding: 5px;
+}
